@@ -1,0 +1,60 @@
+.container {
+  display: block;
+  max-width: 480px;
+  margin: 0 auto;
+
+  padding: 1rem;
+}
+
+.title,
+.main {
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+}
+
+input {
+  border: none;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 4vh;
+  outline: none;
+  padding: 15px;
+}
+
+.todo-list {
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 80%;
+  list-style: none;
+}
+
+ul.todo-list li {
+  display: flex;
+  border-bottom: 1px solid #dfe6e9;
+  border-top: 1px solid #dfe6e9;
+  padding: 10px;
+}
+
+.todo {
+  cursor: pointer;
+  flex: 1;
+  word-wrap: break-all;
+  text-align: start;
+}
+
+.delete {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 40px;
+}
+
+.todo.checked {
+  color: #b2bec3;
+  text-decoration: line-through;
+}
